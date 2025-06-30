@@ -18,7 +18,9 @@ pip install open-webui
 # 启动open-webui
 open-webui serve
 
-# 隧道到云主机
+# 本地powershell命令，建立隧道到云主机
 ssh -CNg -L 8080:127.0.0.1:8080 root@connect.nmb2.seetacloud.com -p 11764
 //ssh -p 11764 root@connect.nmb2.seetacloud.com
+
+# 本地打开浏览器http://127.0.0.1:8080,即可打开open-webui
 ```
